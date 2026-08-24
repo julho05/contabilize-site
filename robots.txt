@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/js/
+
+# Sitemap (troque pelo domínio definitivo)
+Sitemap: https://www.contabilizeassessoria.com.br/sitemap.xml
