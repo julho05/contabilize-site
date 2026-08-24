@@ -1,5 +1,10 @@
 # Contabilize Assessoria Contábil — Site institucional
 
+**🔗 Site no ar (demonstração):** https://julho05.github.io/contabilize-site/
+
+> Esta é a versão de apresentação. O `canonical` do HTML já aponta para o domínio
+> definitivo, então o Google não deve indexar esta cópia no lugar do site oficial.
+
 Site estático em **HTML + CSS + JavaScript puro** (sem frameworks, sem build).
 Basta abrir o `index.html` ou subir a pasta inteira em qualquer hospedagem.
 
@@ -25,15 +30,21 @@ Contabilize/
 |---|---|
 | Telefone / WhatsApp | **(79) 99878-2595** (`5579998782595` nos links `wa.me`) |
 | Endereço | **Av. Rinaldo Mota Santos, 1160 — 1º Andar, Marianga, Itabaiana/SE, 49504-000** |
-| Instagram | [@contabilize.se](https://www.instagram.com/contabilize.se/) |
+| CNPJ | **19.801.458/0001-78** (rodapé + `taxID` no JSON-LD) |
+| Fundação | **26/02/2014** (`foundingDate` no JSON-LD; embasa os "12 anos de mercado") |
+| CNAE principal | 6920-6/01 — Atividades de contabilidade |
+| Instagram | [@contabilize.se](https://www.instagram.com/contabilize.se/) — 2.1 mil seguidores |
+| Serviços da bio do Instagram | Consultoria contábil, consultoria financeira, **certificado digital**, planejamento tributário |
 
 ### Ainda pendente — trocar antes de publicar
 
 | O que trocar | Onde | Valor atual (placeholder) |
 |---|---|---|
-| E-mail | `index.html` (contato, rodapé, JSON-LD) | `contato@contabilizeassessoria.com.br` |
-| CNPJ e CRC | rodapé do `index.html` | `00.000.000/0001-00` / `CRC/SE 0-000000` |
+| E-mail | `index.html` (contato, rodapé, JSON-LD) | `contato@contabilizeassessoria.com.br` — no cadastro da Receita consta `atendimento@contabilizesergipe.com.br`, mas esse domínio não resolve mais; confirmar o e-mail em uso |
+| Domínio | canonical, Open Graph, JSON-LD, `robots.txt`, `sitemap.xml` | `contabilizeassessoria.com.br` (ainda não registrado) |
 | Coordenadas do mapa | JSON-LD, campo `geo` | centro de Itabaiana (`-10.6853, -37.4256`) — refinar com o pino exato do Google Maps |
+| Depoimentos e faixa de números | seções `#depoimentos` e `.stats` | ilustrativos, já sinalizados como tal no site |
+| Horário de atendimento | `index.html` e JSON-LD | seg–sex, 8h30–18h — confirmar |
 | Domínio | `index.html` (canonical, Open Graph, JSON-LD), `robots.txt`, `sitemap.xml` | `https://www.contabilizeassessoria.com.br/` |
 | Números da faixa de estatísticas | `index.html`, atributos `data-target` | 320 empresas, 12 anos, 98% |
 | Depoimentos | seção `#depoimentos` | 3 depoimentos fictícios |
